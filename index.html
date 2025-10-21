@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coming Soon</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    /* URL obrázku na pozadí */
+    background: url('https://cdn.shopify.com/s/files/1/0985/5562/5797/files/iStock-2189746879.jpg?v=1760687834') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+  }
+
+  .logo {
+    /* URL loga */
+    content: url('https://cdn.shopify.com/s/files/1/0985/5562/5797/files/AXIBIOME_logo_BLACK_rgb.png?v=1760596902');
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 32px;
+    }
+    .logo {
+      width: 100px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<img alt="Logo" class="logo">
+<h1>Coming Soon</h1>
+
+</body>
+</html>
